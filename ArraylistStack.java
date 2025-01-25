@@ -29,7 +29,7 @@ public class ArraylistStack {
                 // Get the last element of the ArrayList (top of the stack)
                 int top = stack.get(stack.size() - 1);
                 // Remove the last element by its index
-                stack.remove(stack.size() - 1);
+                stack.remove(stack.size()-1);
                 // Return the removed element
                 return top;
             }
